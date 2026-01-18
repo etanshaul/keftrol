@@ -153,8 +153,6 @@ class KefTray:
         self.mute_button.connect("toggled", self.on_mute_toggled)
         vol_box.pack_start(self.mute_button, False, False, 0)
 
-        self.window.show_all()
-
     def on_delete(self, widget, event):
         self.window.hide()
         return True
