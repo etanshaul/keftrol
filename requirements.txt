@@ -1,0 +1,2 @@
+pykefcontrol>=0.8
+PyGObject>=3.42.0
